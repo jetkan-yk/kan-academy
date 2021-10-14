@@ -16,7 +16,7 @@ function IndexPage() {
           <h1>My Projects</h1>
           <ul>
             <li>Artificial Intelligence</li>
-            <li>Full Stack Development</li>
+            <li>Software Engineering</li>
           </ul>
         </section>
       </main>
