@@ -9,16 +9,14 @@ function IndexPage() {
           <h1>Welcome to Kan Academy!</h1>
           <p>
             I'm a NUS Computer Science undergraduate specialized in Artificial
-            Intelligence and Computer Security. I love learning new things and
-            sharing with people.
+            Intelligence. I love learning new things and sharing with people.
           </p>
         </section>
         <section>
           <h1>My Projects</h1>
           <ul>
             <li>Artificial Intelligence</li>
-            <li>Computer Security</li>
-            <li>Full Stack Development</li>
+            <li>Software Engineering</li>
           </ul>
         </section>
       </main>
