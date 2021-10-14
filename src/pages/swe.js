@@ -3,7 +3,7 @@ import * as React from "react";
 function SWEPage() {
   return (
     <main>
-      <title>Jet Kan | Full Stack Development</title>
+      <title>Jet Kan | Software Engineering</title>
       <section>
         <h1>Source Academy</h1>
         <p>
