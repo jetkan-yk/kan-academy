@@ -6,10 +6,12 @@ function Page({ pageTitle, children }) {
   return (
     <>
       <NavBar />
+      <hr />
       <main>
         <title>Jet Kan | {pageTitle}</title>
         {children}
       </main>
+      <hr />
       <Footer />
     </>
   );
