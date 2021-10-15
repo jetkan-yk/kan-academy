@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import * as React from "react";
 import Page from "../components/page";
 
@@ -14,8 +15,12 @@ function IndexPage() {
       <section>
         <h1>My Projects</h1>
         <ul>
-          <li>Artificial Intelligence</li>
-          <li>Software Engineering</li>
+          <li>
+            <Link to="/artificial-intelligence">Artificial Intelligence</Link>
+          </li>
+          <li>
+            <Link to="/software-engineering">Software Engineering</Link>
+          </li>
         </ul>
       </section>
     </Page>
