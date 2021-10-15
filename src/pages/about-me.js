@@ -1,9 +1,9 @@
 import * as React from "react";
+import Page from "../components/page";
 
 function AboutMePage() {
   return (
-    <main>
-      <title>Jet Kan | About Me</title>
+    <Page pageTitle="About Me">
       <section>
         <h1>Who am I</h1>
         <p>More stuff about me here.</p>
@@ -19,7 +19,7 @@ function AboutMePage() {
           <li>LinkedIn: https://www.linkedin.com/in/jet-kan-94916b222/</li>
         </ul>
       </section>
-    </main>
+    </Page>
   );
 }
 
