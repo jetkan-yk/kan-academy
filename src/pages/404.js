@@ -5,7 +5,7 @@ import Page from "../components/page";
 
 function NotFoundPage() {
   return (
-    <Page pageTitle="Not found">
+    <Page pageTitle="Not Found">
       <h1>Page not found</h1>
       <p>Oops! Something went wrong.</p>
       <Link to="/">Go home</Link>
