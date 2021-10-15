@@ -1,10 +1,10 @@
 import * as React from "react";
+import Page from "../components/page";
 
 function IndexPage() {
   return (
     <>
-      <main>
-        <title>Jet Kan | AI Engineer & Full Stack Developer</title>
+      <Page pageTitle="AI Engineer & Full Stack Developer">
         <section>
           <h1>Welcome to Kan Academy!</h1>
           <p>
@@ -19,7 +19,7 @@ function IndexPage() {
             <li>Software Engineering</li>
           </ul>
         </section>
-      </main>
+      </Page>
       <footer>
         <h1>Get in touch</h1>
         <ul>

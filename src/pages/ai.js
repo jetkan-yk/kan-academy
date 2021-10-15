@@ -1,9 +1,9 @@
 import * as React from "react";
+import Page from "../components/page";
 
 function AIPage() {
   return (
-    <main>
-      <title>Jet Kan | Artificial Intelligence</title>
+    <Page pageTitle="Artificial Intelligence">
       <section>
         <h1>Want to play a game?</h1>
         <p>Pick a game below and challenge my AI!</p>
@@ -14,7 +14,7 @@ function AIPage() {
           <li>Game of Nim</li>
         </ul>
       </section>
-    </main>
+    </Page>
   );
 }
 

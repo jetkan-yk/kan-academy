@@ -1,9 +1,9 @@
 import * as React from "react";
+import Page from "../components/page";
 
 function SWEPage() {
   return (
-    <main>
-      <title>Jet Kan | Software Engineering</title>
+    <Page pageTitle="Software Engineering">
       <section>
         <h1>Source Academy</h1>
         <p>
@@ -14,7 +14,7 @@ function SWEPage() {
         </p>
         <p>Explain my internship project here.</p>
       </section>
-    </main>
+    </Page>
   );
 }
 
