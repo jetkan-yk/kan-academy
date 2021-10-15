@@ -1,4 +1,5 @@
 import * as React from "react";
+import Footer from "./footer";
 import NavBar from "./navbar";
 
 function Page({ pageTitle, children }) {
@@ -9,6 +10,7 @@ function Page({ pageTitle, children }) {
         <title>Jet Kan | {pageTitle}</title>
         {children}
       </main>
+      <Footer />
     </>
   );
 }
