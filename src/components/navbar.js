@@ -12,10 +12,10 @@ function NavBar() {
           <Link to="/about-me">About Me</Link>
         </li>
         <li>
-          <Link to="/ai">Artificial Intelligence</Link>
+          <Link to="/artificial-intelligence">Artificial Intelligence</Link>
         </li>
         <li>
-          <Link to="/swe">Software Engineering</Link>
+          <Link to="/software-engineering">Software Engineering</Link>
         </li>
       </ul>
     </nav>
