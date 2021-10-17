@@ -26,7 +26,7 @@ function NavBar() {
           <Link to="/software-engineering">Software Engineering</Link>
         </li>
         <li>
-          <a href={data.file.publicURL}>Resume</a>
+          <a>Resume</a>
         </li>
       </ul>
     </nav>
