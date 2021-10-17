@@ -10,6 +10,8 @@ function NavBar() {
     }
   `);
 
+  const resumeUrl = data.file.publicURL;
+
   return (
     <nav>
       <ul>
@@ -26,7 +28,7 @@ function NavBar() {
           <Link to="/software-engineering">Software Engineering</Link>
         </li>
         <li>
-          <a>Resume</a>
+          <a href={resumeUrl}>Resume</a>
         </li>
       </ul>
     </nav>
