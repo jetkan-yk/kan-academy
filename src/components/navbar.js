@@ -1,7 +1,17 @@
 import * as React from "react";
-import { Link } from "gatsby";
+import { graphql, Link, useStaticQuery } from "gatsby";
 
 function NavBar() {
+  const data = useStaticQuery(graphql`
+    query MyQuery {
+      file(extension: { eq: "pdf" }, name: { eq: "resume" }) {
+        publicURL
+      }
+    }
+  `);
+
+  const resumeUrl = data.file.publicURL;
+
   return (
     <nav>
       <ul>
@@ -16,6 +26,9 @@ function NavBar() {
         </li>
         <li>
           <Link to="/software-engineering">Software Engineering</Link>
+        </li>
+        <li>
+          <a href={resumeUrl}>Resume</a>
         </li>
       </ul>
     </nav>
