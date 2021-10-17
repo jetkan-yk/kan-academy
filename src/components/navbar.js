@@ -17,6 +17,9 @@ function NavBar() {
         <li>
           <Link to="/software-engineering">Software Engineering</Link>
         </li>
+        <li>
+          <a href="/resume.pdf">Resume</a>
+        </li>
       </ul>
     </nav>
   );
