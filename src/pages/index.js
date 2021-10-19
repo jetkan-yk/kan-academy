@@ -1,10 +1,10 @@
 import { Link } from "gatsby";
 import * as React from "react";
-import Page from "../components/page";
+import Layout from "../components/layout";
 
 function IndexPage() {
   return (
-    <Page pageTitle="AI Engineer & Full Stack Developer">
+    <Layout pageTitle="AI Engineer & Full Stack Developer">
       <section>
         <h1>Hi, my name is Jet Kan</h1>
         <p>-Tag line here-</p>
@@ -34,7 +34,7 @@ function IndexPage() {
         </p>
         <a href="mailto: jetkan.yk@gmail.com">Say Hi</a>
       </section>
-    </Page>
+    </Layout>
   );
 }
 

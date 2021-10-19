@@ -2,7 +2,7 @@ import * as React from "react";
 import Footer from "./footer";
 import NavBar from "./navbar";
 
-function Page({ pageTitle, children }) {
+function Layout({ pageTitle, children }) {
   return (
     <>
       <NavBar />
@@ -17,4 +17,4 @@ function Page({ pageTitle, children }) {
   );
 }
 
-export default Page;
+export default Layout;

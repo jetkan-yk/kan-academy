@@ -1,9 +1,9 @@
 import * as React from "react";
-import Page from "../components/page";
+import Layout from "../components/layout";
 
 function AboutMePage() {
   return (
-    <Page pageTitle="About Me">
+    <Layout pageTitle="About Me">
       <section>
         <h1>Who am I</h1>
         <p>More stuff about me here.</p>
@@ -11,7 +11,7 @@ function AboutMePage() {
       <section>
         <h1>My Resume</h1>
       </section>
-    </Page>
+    </Layout>
   );
 }
 
