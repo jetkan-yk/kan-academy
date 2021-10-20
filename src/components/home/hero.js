@@ -1,3 +1,4 @@
+import { Link } from "gatsby";
 import * as React from "react";
 
 function Hero() {
@@ -9,6 +10,7 @@ function Hero() {
         I'm a NUS Computer Science undergraduate specializing in Artificial
         Intelligence. I love learning new things and sharing with people.
       </p>
+      <Link to="/about-me">About Me</Link>
     </>
   );
 }
