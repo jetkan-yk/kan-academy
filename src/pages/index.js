@@ -1,23 +1,13 @@
-import { Link } from "gatsby";
 import * as React from "react";
 import Hero from "../components/home/hero";
+import Projects from "../components/home/projects";
 import Layout from "../components/layout";
 
 function IndexPage() {
   return (
     <Layout pageTitle="AI Engineer & Full Stack Developer">
       <Hero />
-      <section>
-        <h1>My Projects</h1>
-        <ul>
-          <li>
-            <Link to="/artificial-intelligence">Artificial Intelligence</Link>
-          </li>
-          <li>
-            <Link to="/software-engineering">Software Engineering</Link>
-          </li>
-        </ul>
-      </section>
+      <Projects />
       <section>
         <h1>Get In Touch</h1>
         <p>
