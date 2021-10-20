@@ -1,20 +1,12 @@
 import { Link } from "gatsby";
 import * as React from "react";
+import Hero from "../components/home/hero";
 import Layout from "../components/layout";
 
 function IndexPage() {
   return (
     <Layout pageTitle="AI Engineer & Full Stack Developer">
-      <section>
-        <h1>Hi, my name is Jet Kan</h1>
-        <p>-Tag line here-</p>
-      </section>
-      <section>
-        <p>
-          I'm a NUS Computer Science undergraduate specializing in Artificial
-          Intelligence. I love learning new things and sharing with people.
-        </p>
-      </section>
+      <Hero />
       <section>
         <h1>My Projects</h1>
         <ul>
