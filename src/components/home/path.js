@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import * as React from "react";
 
-function Projects() {
+function Path() {
   return (
     <>
       <h1>My Projects</h1>
@@ -11,4 +11,4 @@ function Projects() {
     </>
   );
 }
-export default Projects;
+export default Path;
