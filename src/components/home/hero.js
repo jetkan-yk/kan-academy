@@ -3,7 +3,7 @@ import * as React from "react";
 
 function Hero() {
   return (
-    <>
+    <section id="hero">
       <h1>Hi, my name is Jet Kan</h1>
       <h2>-Tag line here-</h2>
       <p>
@@ -11,7 +11,7 @@ function Hero() {
         Intelligence. I love learning new things and sharing with people.
       </p>
       <Link to="/about-me">About Me</Link>
-    </>
+    </section>
   );
 }
 export default Hero;
