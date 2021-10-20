@@ -1,19 +1,17 @@
 import * as React from "react";
-import Footer from "./footer";
-import NavBar from "./navbar";
+import Footer from "./layout/footer";
+import Header from "./layout/header";
 
 function Layout({ pageTitle, children }) {
   return (
-    <>
-      <NavBar />
+    <div id="root">
+      <title>Jet Kan | {pageTitle}</title>
+      <Header />
       <hr />
-      <main>
-        <title>Jet Kan | {pageTitle}</title>
-        {children}
-      </main>
+      <main>{children}</main>
       <hr />
       <Footer />
-    </>
+    </div>
   );
 }
 
