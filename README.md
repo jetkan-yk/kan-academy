@@ -1,22 +1,23 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# Kan Academy
 
-## 🚀 Information
+## Overview 👀
 
-- [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Welcome to the Kan Academy GitHub repository! This repo contains all the code for [my personal website](https://jetkan.gatsbyjs.io/).
 
-- [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+This project started as a portfolio to showcase my projects and programming skills I've learned so far.
 
-- [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+Currently it is still a _work in progress_.
 
-- [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Setup 🛠️
 
-- [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Prerequisites
 
-- [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- [Node.js](https://nodejs.dev/download) (v14.15 or newer)
+- [Gatsby CLI](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli) (v3 or newer)
+
+### Installation
+
+1. Clone this repo to your computer
+2. Navigate to the repo and run `npm install`
+3. Run `npm run develop` or `gatsby develop`
+4. Open a browser and view the local website on `localhost:8000` or `http://localhost:8000/___graphql` for GraphiQL.
