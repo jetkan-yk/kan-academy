@@ -2,7 +2,7 @@
 
 ## Overview 👀
 
-Welcome to the Kan Academy GitHub repository! This repo contains all the code for my personal website.
+Welcome to the Kan Academy GitHub repository! This repo contains all the code for [my personal website](https://jetkan.gatsbyjs.io/).
 
 This project started as a portfolio to showcase my projects and programming skills I've learned so far.
 
